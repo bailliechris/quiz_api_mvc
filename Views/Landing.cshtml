@@ -1,0 +1,17 @@
+﻿@page
+@model quiz_api_mvc.LandingModel
+@{
+    ViewData["Title"] = "Landing";
+}
+
+<h1>ASP API for Keywords Quiz Admin</h1>
+<p>Usage: api/score </p>
+<ul>
+    <li>GET</li>
+    <li>POST - JSON including: score, name, topic, time, max possible score, unique index</li>
+</ul>
+
+<p>Usage: api/filter</p>
+<ul>
+    <li>POST - JSON {"topic":"#topic name#"}</li>
+</ul>
